@@ -123,20 +123,6 @@ export const OverlayUI = ({ scrollProgress = 0, onJumpToPhase }) => {
             </div>
           </div>
         )}
-
-        {/* Phase 2: Cloud Dive Transition */}
-        {scrollProgress >= 0.22 && scrollProgress < 0.42 && (
-          <div className="animate-fade-in max-w-lg">
-            <span className="text-xs uppercase font-mono tracking-widest text-[#89AACC] block mb-2">
-              Phase 02 // Cloud Dive
-            </span>
-            <blockquote className="font-serif italic text-2xl sm:text-3xl text-gray-200 leading-snug">
-              "Turning conversations into action through intuitive interfaces, AI copilots and data analytics."
-            </blockquote>
-          </div>
-        )}
-
-
       </div>
 
       {/* 3. RIGHT VERTICAL SCROLL TRACKER */}
